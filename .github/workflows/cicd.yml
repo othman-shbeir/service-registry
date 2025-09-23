@@ -56,7 +56,7 @@ jobs:
         tags: ${{ steps.meta.outputs.tags }}
         annotations: ${{ steps.meta.outputs.annotations }}
         push: true
-          
+
   dependency-submission:
 
     runs-on: ubuntu-latest
